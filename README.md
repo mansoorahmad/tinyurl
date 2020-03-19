@@ -47,4 +47,8 @@ DockerHub:
 * docker pull 3805/tinyurl-docker
 * Run directly: `docker run -p 5000:8080 3805/tinyurl-docker:0.0.1-SNAPSHOT`
 
+### Extension:
+* This service can be extended in terms of scalability by deploying into AWS with LoadBalancer and using AWS Redis service cluster. It will require some redis configuration changes in the project.
+* It can also be extended to build User Interface in order to get LongUrl inputs from users and also to redirect the tiny Urls to Long Urls.
+
 
